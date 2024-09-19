@@ -54,20 +54,20 @@ Kelas : SK3B
    b. Edit semua profile yang ada di soal, kemudian cantumkan instruksi echo, misalnya pada /home/ mahasiswa/.bash_profile :  echo “Profile dari .bash_profile”. Caranya bisa       dilihat dari gambar berikut :
    
       - untuk .bash_profile
-        ![Screenshot from 2024-09-19 19-25-48](https://github.com/user-attachments/assets/c0594b7d-f3e9-4b9a-8d5d-5801093847a9)
-        ![Screenshot from 2024-09-19 19-18-10](https://github.com/user-attachments/assets/39c64fa6-43ef-4b9c-9221-ca75492d73ea)
+   ![Screenshot from 2024-09-19 19-25-48](https://github.com/user-attachments/assets/c0594b7d-f3e9-4b9a-8d5d-5801093847a9)
+   ![Screenshot from 2024-09-19 19-18-10](https://github.com/user-attachments/assets/39c64fa6-43ef-4b9c-9221-ca75492d73ea)
 
       - untuk .bash_login
-        ![Screenshot from 2024-09-19 19-26-00](https://github.com/user-attachments/assets/22a36a10-d3e4-48ed-be36-18504f1613d8)
-        ![Screenshot from 2024-09-19 19-24-08](https://github.com/user-attachments/assets/61b061c0-7117-49ed-b2dc-994220bfb6e7)
+   ![Screenshot from 2024-09-19 19-26-00](https://github.com/user-attachments/assets/22a36a10-d3e4-48ed-be36-18504f1613d8)
+   ![Screenshot from 2024-09-19 19-24-08](https://github.com/user-attachments/assets/61b061c0-7117-49ed-b2dc-994220bfb6e7)
 
       - untuk .profile (cantumkan intruksi echo dibaris terakhir)
-        ![Screenshot from 2024-09-19 19-26-07](https://github.com/user-attachments/assets/c450a831-ceb2-4025-b025-1bb87bfaa965)
-        ![Screenshot from 2024-09-19 19-23-23](https://github.com/user-attachments/assets/0a5c436b-c1a5-4d38-ba4d-2199562a25e9)
+   ![Screenshot from 2024-09-19 19-26-07](https://github.com/user-attachments/assets/c450a831-ceb2-4025-b025-1bb87bfaa965)
+   ![Screenshot from 2024-09-19 19-23-23](https://github.com/user-attachments/assets/0a5c436b-c1a5-4d38-ba4d-2199562a25e9)
 
       - untuk .bashrc (cantumkan intruksi echo dibaris terakhir)
-        ![Screenshot from 2024-09-19 19-26-14](https://github.com/user-attachments/assets/49c77e50-a62f-4306-b075-8de4fc5d50ef)
-        ![Screenshot from 2024-09-19 19-25-15](https://github.com/user-attachments/assets/13e11c40-ae9a-4df6-9d4b-6ea7880aa3e7)
+   ![Screenshot from 2024-09-19 19-26-14](https://github.com/user-attachments/assets/49c77e50-a62f-4306-b075-8de4fc5d50ef)
+   ![Screenshot from 2024-09-19 19-25-15](https://github.com/user-attachments/assets/13e11c40-ae9a-4df6-9d4b-6ea7880aa3e7)
 
    c. Jalankan instruksi subtitute user (su dan su -), kemudian keluar dengan perintah exit. Caranya :
       ![Screenshot from 2024-09-19 19-45-43](https://github.com/user-attachments/assets/b245d68c-f87b-4284-ab70-68c672060d01)
