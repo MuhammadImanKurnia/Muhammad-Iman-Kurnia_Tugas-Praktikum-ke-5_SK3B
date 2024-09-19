@@ -47,6 +47,7 @@ Kelas : SK3B
    
    a. Untuk mengedit file /etc/profile, kita bisa menggunakan command sudo untuk mendapatkan hak akses super user, lalu menggunakan command nano untuk mengedit file                tersebut. Caranya, kita ketik sudo nano /etc/profile
       ![Screenshot from 2024-09-19 18-57-09](https://github.com/user-attachments/assets/82d22f41-4c7e-430c-bd0a-eb3d04b20465)
+      
       Lalu kita ketik echo “Profile dari /etc/profile” dibaris paling bawah
       ![Screenshot from 2024-09-19 20-09-05](https://github.com/user-attachments/assets/3c0f6b88-4ea0-4fa4-a604-8c38a00d2b12)
       Kemudian kita tekan ctrl + x, lalu tekan Y, kemudian enter untuk keluar
