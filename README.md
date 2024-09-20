@@ -47,8 +47,8 @@ Kelas : SK3B
    
    a. Untuk mengedit file /etc/profile, kita bisa menggunakan command sudo untuk mendapatkan hak akses super user, lalu menggunakan command nano untuk mengedit file               tersebut. Caranya, kita ketik sudo nano /etc/profile
       ![Screenshot from 2024-09-19 18-57-09](https://github.com/user-attachments/assets/82d22f41-4c7e-430c-bd0a-eb3d04b20465)
-      Lalu kita ketik echo “Profile dari /etc/profile” dibaris paling bawah
-      ![Screenshot from 2024-09-19 20-09-05](https://github.com/user-attachments/assets/3c0f6b88-4ea0-4fa4-a604-8c38a00d2b12)
+      Lalu kita tambahkan echo “Profile dari /etc/profile”
+      ![Screenshot from 2024-09-20 22-34-20](https://github.com/user-attachments/assets/2d0ea8a7-1553-46d1-8614-a9d2730592c2)
       Kemudian kita tekan ctrl + x, lalu tekan Y, kemudian enter untuk keluar
 
    b. Edit semua profile yang ada di soal, kemudian cantumkan instruksi echo, misalnya pada /home/nama user/.bash_profile :  echo “Profile dari .bash_profile”. Caranya            bisa dilihat dari gambar berikut :
@@ -61,18 +61,19 @@ Kelas : SK3B
    ![Screenshot from 2024-09-19 19-26-00](https://github.com/user-attachments/assets/22a36a10-d3e4-48ed-be36-18504f1613d8)
    ![Screenshot from 2024-09-19 19-24-08](https://github.com/user-attachments/assets/61b061c0-7117-49ed-b2dc-994220bfb6e7)
 
-      - untuk .profile (cantumkan intruksi echo dibaris terakhir)
+      - untuk .profile 
    ![Screenshot from 2024-09-19 19-26-07](https://github.com/user-attachments/assets/c450a831-ceb2-4025-b025-1bb87bfaa965)
-   ![Screenshot from 2024-09-19 19-23-23](https://github.com/user-attachments/assets/0a5c436b-c1a5-4d38-ba4d-2199562a25e9)
+   ![Screenshot from 2024-09-20 22-37-10](https://github.com/user-attachments/assets/74784d14-79cb-473d-93ba-b7b33234c1d5)
 
-      - untuk .bashrc (cantumkan intruksi echo dibaris terakhir)
+      - untuk .bashrc 
    ![Screenshot from 2024-09-19 19-26-14](https://github.com/user-attachments/assets/49c77e50-a62f-4306-b075-8de4fc5d50ef)
-   ![Screenshot from 2024-09-19 19-25-15](https://github.com/user-attachments/assets/13e11c40-ae9a-4df6-9d4b-6ea7880aa3e7)
+   ![Screenshot from 2024-09-20 22-36-58](https://github.com/user-attachments/assets/27d7dffa-5855-496f-9a0a-4b642bf16afa)
 
    c. Jalankan instruksi subtitute user (su dan su -), kemudian keluar dengan perintah exit. Caranya :
       ![Screenshot from 2024-09-19 19-45-43](https://github.com/user-attachments/assets/b245d68c-f87b-4284-ab70-68c672060d01)
-      ![Screenshot from 2024-09-19 19-29-57](https://github.com/user-attachments/assets/f242bad0-0a98-40a5-8cb7-695971391cd6)
-      Perbedaan dari kedua utilitas tersebut adalah, utilitas su untuk mengganti user tanpa mengubah environment, sedangkan su - untuk mengganti user dengan memuat                 environment (profile) dari user tersebut
+      ![Screenshot from 2024-09-20 22-40-42](https://github.com/user-attachments/assets/be4fc7fb-7278-4887-9921-5afef790a93d)
+      ![Screenshot from 2024-09-20 22-42-45](https://github.com/user-attachments/assets/314dbcc2-3b97-4a9c-8a9e-a44320060567)
+      Perbedaan dari kedua utilitas tersebut adalah, utilitas su untuk mengganti user tanpa mengubah environment, sedangkan su - untuk mengganti user dengan memuat                environment (profile) dari user tersebut
 
 2. Prompt String (PS)
    
@@ -180,6 +181,8 @@ Kelas : SK3B
       $ ( ./p1.sh ; ./p3.sh ) &
 
     Jawab :
+
+    
 
     
     
