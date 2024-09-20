@@ -45,13 +45,13 @@ Kelas : SK3B
 
    Jawab :
    
-   a. Untuk mengedit file /etc/profile, kita bisa menggunakan command sudo untuk mendapatkan hak akses super user, lalu menggunakan command nano untuk mengedit file                tersebut. Caranya, kita ketik sudo nano /etc/profile
+   a. Untuk mengedit file /etc/profile, kita bisa menggunakan command sudo untuk mendapatkan hak akses super user, lalu menggunakan command nano untuk mengedit file               tersebut. Caranya, kita ketik sudo nano /etc/profile
       ![Screenshot from 2024-09-19 18-57-09](https://github.com/user-attachments/assets/82d22f41-4c7e-430c-bd0a-eb3d04b20465)
       Lalu kita ketik echo “Profile dari /etc/profile” dibaris paling bawah
       ![Screenshot from 2024-09-19 20-09-05](https://github.com/user-attachments/assets/3c0f6b88-4ea0-4fa4-a604-8c38a00d2b12)
       Kemudian kita tekan ctrl + x, lalu tekan Y, kemudian enter untuk keluar
 
-   b. Edit semua profile yang ada di soal, kemudian cantumkan instruksi echo, misalnya pada /home/ mahasiswa/.bash_profile :  echo “Profile dari .bash_profile”. Caranya bisa       dilihat dari gambar berikut :
+   b. Edit semua profile yang ada di soal, kemudian cantumkan instruksi echo, misalnya pada /home/nama user/.bash_profile :  echo “Profile dari .bash_profile”. Caranya            bisa dilihat dari gambar berikut :
    
       - untuk .bash_profile
    ![Screenshot from 2024-09-19 19-25-48](https://github.com/user-attachments/assets/c0594b7d-f3e9-4b9a-8d5d-5801093847a9)
@@ -73,6 +73,56 @@ Kelas : SK3B
       ![Screenshot from 2024-09-19 19-45-43](https://github.com/user-attachments/assets/b245d68c-f87b-4284-ab70-68c672060d01)
       ![Screenshot from 2024-09-19 19-29-57](https://github.com/user-attachments/assets/f242bad0-0a98-40a5-8cb7-695971391cd6)
       Perbedaan dari kedua utilitas tersebut adalah, utilitas su untuk mengganti user tanpa mengubah environment, sedangkan su - untuk mengganti user dengan memuat                 environment (profile) dari user tersebut
+
+2. Prompt String (PS)
+   
+   a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh          semua shell
+   
+        PS1='> '
+   
+        export PS1
+   
+   b. Eksperimen hasil PS1 :
+
+        $ PS1=“\! > “
+   
+        69 > PS1=”\d > “
+   
+        Mon Sep 23 > PS1=”\t > “
+   
+        10:10:20 > PS1=”Saya=\u > “
+   
+        Saya=mahasiswa > PS1=”\w >”
+   
+        ~ > PS1=\h >”
+
+    Jawab :
+
+    a. Untuk mengedit file .bash_profile, kita bisa menggunakan command nano. Cara nya kita ketik nano /home/nama user/.bash_profile
+       ![Screenshot from 2024-09-20 14-15-58](https://github.com/user-attachments/assets/aff3f5cc-2f92-4b16-b913-82e510378366)
+       Kemudian kita tambahkan PS1='> ', ini untuk mengganti command PS1 dengan '>', lalu dibawahnya kita tambahkan export PS1, agar perubahan variable PS1 dikenal oleh            semua shell
+       ![Screenshot from 2024-09-20 14-15-41](https://github.com/user-attachments/assets/94ae5e17-090c-4049-996d-422f710b119c)
+       Jangan lupa di save
+
+    b. Kemudian kita jalankan beberapa command PS1 berikut :
+
+       - PS1='\! > ' (untuk menampilkan nomor perintah)
+
+       - PS1='\d > ' (untuk menampilkan tanggal)
+
+       - PS1='\t > ' (untuk menampilkan waktu)
+
+       - PS1='Saya=\u > ' (untuk menampilkan username)
+
+       - PS1='\w >' (untuk menampilkan direktori kerja saat ini)
+
+       - PS1='\h >' (untuk menampilkan hostname)
+   ![Screenshot from 2024-09-20 14-38-28](https://github.com/user-attachments/assets/d273fa3b-15f0-4584-a26a-4044b6164ae8)
+
+
+
+
+    
 
 
 
