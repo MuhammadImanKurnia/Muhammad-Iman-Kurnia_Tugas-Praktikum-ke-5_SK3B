@@ -182,6 +182,38 @@ Kelas : SK3B
 
     Jawab :
 
+    a. Untuk membuat script p1.sh, p2.sh, dan p3.sh, kita bisa menggunakan command nano, kemudian isi dengan command yang sudah ada di soal. Caranya bisa dilihat dari              gambar berikut :
+
+       - untuk p1.sh
+   ![Screenshot from 2024-09-20 21-45-22](https://github.com/user-attachments/assets/299d4853-46c5-4cea-a089-55f5a6e64bcf)
+   ![Screenshot from 2024-09-20 21-43-48](https://github.com/user-attachments/assets/27e928c3-5536-4e5e-ae63-e86158cb8add)
+
+       - untuk p2.sh
+   ![Screenshot from 2024-09-20 21-45-31](https://github.com/user-attachments/assets/6369f533-e78e-4084-a69d-a4422fba5280)
+   ![Screenshot from 2024-09-20 21-44-23](https://github.com/user-attachments/assets/dee4337f-9a52-406d-b872-5af7b012c58a)
+
+       - untuk p3.sh
+   ![Screenshot from 2024-09-20 21-45-54](https://github.com/user-attachments/assets/6f7ed751-4cdd-455c-9c9e-eb7cc3a84f22)
+   ![Screenshot from 2024-09-20 21-45-07](https://github.com/user-attachments/assets/f48ec12b-3e56-41f6-9f94-6e327d57436b)
+
+     b. Lalu jalankan script tersebut dengan cara sebagai berikut :
+
+        sebelum itu kita ubah dulu script menjadi executable dengan menggunakan command chmod +x. Caranya :    
+   ![Screenshot from 2024-09-20 22-54-02](https://github.com/user-attachments/assets/bc52d8d5-c4d2-49ed-9c07-ace68b8625c8)
+
+        - ./p1.sh ; ./p3.sh ; ./p2.sh (untuk menjalankan script secara berurutan)
+   ![Screenshot from 2024-09-20 22-57-02](https://github.com/user-attachments/assets/c7c56aba-3185-4036-aad7-8e9148fa134f)
+
+        - ./p1.sh & (untuk menjalankan script di background)
+   ![Screenshot from 2024-09-20 23-00-04](https://github.com/user-attachments/assets/ca2c476c-faa1-4e2a-8fe3-e7ac5a12fe43)
+          Pencet ctrl + c untuk keluar
+
+        - ./p1.sh & ./p2.sh & ./p3.sh & (untuk menggabungkan foreground dan background)
+   ![Screenshot from 2024-09-20 23-02-07](https://github.com/user-attachments/assets/b2982cea-4eef-41bf-9f70-5821d3bcde01)
+
+        - ( ./p1.sh ; ./p3.sh ) & (untuk menjalankan beberapa script dalam satu block)
+   ![Screenshot from 2024-09-20 23-03-31](https://github.com/user-attachments/assets/7ecd562b-f377-4aca-887e-3686e3f0f0d1)
+
     
 
     
