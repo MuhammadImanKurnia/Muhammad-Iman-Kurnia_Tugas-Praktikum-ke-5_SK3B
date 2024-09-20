@@ -119,6 +119,21 @@ Kelas : SK3B
        - PS1='\h >' (untuk menampilkan hostname)
    ![Screenshot from 2024-09-20 14-38-28](https://github.com/user-attachments/assets/d273fa3b-15f0-4584-a26a-4044b6164ae8)
 
+3. Logout
+   
+   Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout
+   
+     Echo “Terima kasih atas sesi yang diberikan”
+   
+     Sleep 5
+   
+     clear
+
+   Jawab :
+
+   
+      
+
 
 
 
