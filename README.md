@@ -131,7 +131,17 @@ Kelas : SK3B
 
    Jawab :
 
-   
+   Untuk mengedit file .bash_logout, kita menggunakan command nano. Caranya kita ketik nano /home/nama user/.bash_logout
+   ![Screenshot from 2024-09-20 21-21-24](https://github.com/user-attachments/assets/036745a7-bf7a-4a48-b4b6-ec61860239a9)
+   Setelah itu kita tambahkan command echo "Terima kasih atas sesi yang diberikan", kemudian di bawahnya sleep 5, dan dibawahnya lagi clear
+   ![Screenshot from 2024-09-20 21-21-36](https://github.com/user-attachments/assets/51034c7a-49ea-4430-a29c-af140cfcf9bb)
+   command-command di atas berfungsi untuk menampilkan pesan "Terima kasih atas sesi yang diberikan", lalu menahan layar selama 5 detik agar pesan dapat terlihat sebelum       terminal menutup sesi, dan kemudian membersihkan terminal setelah pesan ditampilkan.
+
+   Untuk melihat pesan tersebut, kita harus login dulu menggunakan command su -. Caranya kita ketik su - nama user, setelah itu kita gunakan command exit untuk logout dan      pesan pun ditampilkan
+   ![Screenshot from 2024-09-20 21-22-26](https://github.com/user-attachments/assets/c648eb3c-f82d-4578-8a50-b876d5d41ec4)
+   Setelah 5 detik, terminal akan dibersihkan.
+
+
       
 
 
